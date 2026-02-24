@@ -671,7 +671,7 @@ body {
 .footer-links a:hover {
     color: #1b8ec6;
 }
-
+/*
 .social-icons a {
     display: inline-block;
     margin-right: 12px;
@@ -693,4 +693,30 @@ body {
     font-size: 14px;
     border-top: 1px solid #334155;
     padding-top: 20px;
+}
+*/
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;   /* Push left & right */
+    align-items: center;
+    padding: 20px 10%;
+    border-top: 1px solid #334155;
+    font-size: 14px;
+}
+
+/* Keep icons aligned properly */
+.footer-right .social-icons a {
+    display: inline-block;
+    margin-left: 12px;
+    background: #1b8ec6;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.footer-right .social-icons a:hover {
+    background: white;
+    color: #1b8ec6;
 }
