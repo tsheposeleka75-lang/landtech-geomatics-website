@@ -360,7 +360,7 @@ body {
 }
 
 .contact-info a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .contact-form form {
